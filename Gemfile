@@ -9,6 +9,7 @@ gem 'rake'
 gem 'sinatra-flash', :require => 'sinatra/flash'
 
 # Component requirements
+gem 'sass'
 gem 'bcrypt-ruby', :require => "bcrypt"
 gem 'haml'
 gem 'dm-sqlite-adapter'

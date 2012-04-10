@@ -1,4 +1,5 @@
 class YouDontKnowThat < Padrino::Application
+  register SassInitializer
   register Padrino::Rendering
   register Padrino::Mailer
   register Padrino::Helpers

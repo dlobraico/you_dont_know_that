@@ -1,0 +1,14 @@
+!!! Strict
+%html
+  %head
+    %title= "Things You Don't Know About History"
+    = stylesheet_link_tag 'application'
+    = javascript_include_tag 'jquery', 'application'
+    = yield_content :include
+  %body
+    #header
+      %h1 Things You Don't Know About History:
+    #container
+      #main= yield
+    #footer
+      Copyright (c) 2012 Emily LoBraico
