@@ -34,3 +34,7 @@ gem 'padrino', '0.10.6'
 # end
 #
 gem 'heroku'
+
+group :production do
+    gem 'dm-postgres-adapter'
+end
