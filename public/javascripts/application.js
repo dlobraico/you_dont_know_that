@@ -1,1 +1,1 @@
-// Put your application scripts here
+// Put your application scripts here$(document).ready(function(){    $(".phrase").fadeIn('750');});
